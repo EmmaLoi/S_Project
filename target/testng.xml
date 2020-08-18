@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sample Test Suite" parallel="classes" thread-count="2">
+
+    <parameter name="browserName" value="Chrome"/>
+    <!--    <parameter name="waitTimeOutInSeconds" value="10"></parameter>-->
+
+    <test name="SampleSelenideTest">
+        <classes>
+            <class name="SampleSelenideTest"/>
+        </classes>
+    </test>
+
+</suite>
